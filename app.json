@@ -1,0 +1,53 @@
+{
+    "pages": [
+        "pages/newest/newest",
+        "pages/newMovie/newMovie",
+        "pages/newTv/newTv",
+        "pages/newOST/newOST"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#F6F6F6",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "更新",
+        "backgroundColor": "#fff",
+        "backgroundTextStyle": "dark",
+        "enablePullDownRefresh": true
+    },
+    "tabBar": {
+        "color": "#CDCDCD",
+        "selectedColor": "#1AA0E1",
+        "backgroundColor": "#F6F6F6",
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/newest/newest",
+                "iconPath": "dist/images/icon_new_normal.png",
+                "selectedIconPath": "dist/images/icon_new_selected.png",
+                "text": "更新"
+            },
+            {
+                "pagePath": "pages/newMovie/newMovie",
+                "iconPath": "dist/images/icon_movie_normal.png",
+                "selectedIconPath": "dist/images/icon_movie_selected.png",
+                "text": "电影"
+            },
+            {
+                "pagePath": "pages/newTv/newTv",
+                "iconPath": "dist/images/icon_tv_normal.png",
+                "selectedIconPath": "dist/images/icon_tv_selected.png",
+                "text": "电视剧"
+            },
+            {
+                "pagePath": "pages/newOST/newOST",
+                "iconPath": "dist/images/icon_ost_normal.png",
+                "selectedIconPath": "dist/images/icon_ost_selected.png",
+                "text": "原声大碟"
+            }
+        ]
+    },
+    "networkTimeout": {
+        "request": 10000,
+        "downloadFile": 10000
+    },
+    "debug": true
+}
